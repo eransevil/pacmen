@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  size: 1px;
+}
+
+.modal-container {
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 100px;
+  top: 100px;
+  border: wheat solid 2px;
+  background-color: firebrick;
+}
+
+.hide {
+  display: none;
+}
+
+.playAgainBtn {
+  background-color: red;
+  position: absolute;
+  left: 70px;
+  bottom: 10px;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #616e5f;
+}
+.playAgainBtn:hover {
+  background-color: #ffffff;
+  color: red;
+}
+
+.Msg {
+  font-size: 1.4em;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
